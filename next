@@ -1,0 +1,397 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local MainTab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MainTab:AddButton({
+	Name = "Pet Equip buy",
+	Callback = function()
+      		print("hello")
+  	end    
+})
+
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = false,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Colorful Forest"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Castle"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Green Forest"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Autumn"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Cherry Blossom"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Farm"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Backyard"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Misty Falls"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Mine"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Crystal Caverns"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Dead Forest"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Dark Forest"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Mushroom Field"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Enchanted Forest"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Crimson Forest"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Jungle"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Jungle Temple"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Oasis"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Beach"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Coral Reef"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Shipwreck"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Atlantis"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Palm Beach"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Tiki"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Pirate Cove"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Pirate Tavern"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		while true do
+                local args = {
+    [1] = "Shanty Town"
+}
+
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+            end
+	end    
+})
+
+OrionLib:Init()
