@@ -7,6 +7,13 @@ local MainTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+MainTab:AddButton({
+	Name = "pet-equip-buy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darks-scripts/pet-equip-buy/main/pet"))()
+  	end    
+})
+
 MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
