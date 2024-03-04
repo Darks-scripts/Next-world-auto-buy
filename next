@@ -19,13 +19,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(88)
                 local args = {
     [1] = "Colorful Forest"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -34,27 +33,25 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(89)
                 local args = {
     [1] = "Castle"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
-	end    
+            end    
 })
 
 MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(90)
                 local args = {
     [1] = "Green Forest"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -62,13 +59,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(91)
                 local args = {
     [1] = "Autumn"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -76,13 +72,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(92)
                 local args = {
     [1] = "Cherry Blossom"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -90,13 +85,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+            task.wait(93)
                 local args = {
     [1] = "Farm"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -104,13 +98,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+          task.wait(94)
                 local args = {
     [1] = "Backyard"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -118,13 +111,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(95)
                 local args = {
     [1] = "Misty Falls"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -132,13 +124,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(96)
                 local args = {
     [1] = "Mine"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -146,13 +137,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(97)
                 local args = {
     [1] = "Crystal Caverns"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -160,13 +150,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(98)
                 local args = {
     [1] = "Dead Forest"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -174,13 +163,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(99)
                 local args = {
     [1] = "Dark Forest"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -188,13 +176,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(100)
                 local args = {
     [1] = "Mushroom Field"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -202,13 +189,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+            task.wait(101)
                 local args = {
     [1] = "Enchanted Forest"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -216,13 +202,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(102)
                 local args = {
     [1] = "Crimson Forest"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -230,13 +215,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(103)
                 local args = {
     [1] = "Jungle"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -244,13 +228,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(104)
                 local args = {
     [1] = "Jungle Temple"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -258,13 +241,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(105)
                 local args = {
     [1] = "Oasis"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -272,13 +254,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(106))
                 local args = {
     [1] = "Beach"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -286,13 +267,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(107)
                 local args = {
     [1] = "Coral Reef"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -300,13 +280,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+            task.wait(108)
                 local args = {
     [1] = "Shipwreck"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -314,13 +293,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(109)
                 local args = {
     [1] = "Atlantis"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -328,13 +306,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(110)
                 local args = {
     [1] = "Palm Beach"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -342,13 +319,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(111)
                 local args = {
     [1] = "Tiki"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -356,13 +332,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(112)
                 local args = {
     [1] = "Pirate Cove"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -370,13 +345,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(113)
                 local args = {
     [1] = "Pirate Tavern"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
@@ -384,13 +358,12 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		while true do
+		task.wait(114)
                 local args = {
     [1] = "Shanty Town"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end
 	end    
 })
 
