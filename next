@@ -7,19 +7,24 @@ local MainTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-MainTab:AddButton({
-	Name = "Pet Equip buy",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Darks-scripts/pet-equip-buy/main/pet"))()
-  	end    
-})
+MainTab:AddToggle({
+	Name = "Next world auto buy",
+	Default = true,
+	Callback = function(Value)
+		task.wait(5)
+                local args = {
+    [1] = "Spawn"
+}
 
+game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
+	end    
+})
 
 MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(88)
+		task.wait(5)
                 local args = {
     [1] = "Colorful Forest"
 }
@@ -28,25 +33,24 @@ game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(
 	end    
 })
 
-
 MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(89)
+		task.wait(5)
                 local args = {
     [1] = "Castle"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
-            end    
+	end    
 })
 
 MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(90)
+		task.wait(5)
                 local args = {
     [1] = "Green Forest"
 }
@@ -59,7 +63,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(91)
+		task.wait(5)
                 local args = {
     [1] = "Autumn"
 }
@@ -72,7 +76,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(92)
+		task.wait(5)
                 local args = {
     [1] = "Cherry Blossom"
 }
@@ -85,7 +89,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-            task.wait(93)
+		task.wait(5)
                 local args = {
     [1] = "Farm"
 }
@@ -98,7 +102,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-          task.wait(94)
+		task.wait(5)
                 local args = {
     [1] = "Backyard"
 }
@@ -111,7 +115,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(95)
+		task.wait(5)
                 local args = {
     [1] = "Misty Falls"
 }
@@ -124,7 +128,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(96)
+		task.wait(5)
                 local args = {
     [1] = "Mine"
 }
@@ -137,7 +141,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(97)
+		task.wait(5)
                 local args = {
     [1] = "Crystal Caverns"
 }
@@ -150,7 +154,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(98)
+		task.wait(5)
                 local args = {
     [1] = "Dead Forest"
 }
@@ -163,7 +167,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(99)
+		task.wait(5)
                 local args = {
     [1] = "Dark Forest"
 }
@@ -176,7 +180,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(100)
+		task.wait(5)
                 local args = {
     [1] = "Mushroom Field"
 }
@@ -189,7 +193,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-            task.wait(101)
+		task.wait(5)
                 local args = {
     [1] = "Enchanted Forest"
 }
@@ -202,7 +206,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(102)
+		task.wait(5)
                 local args = {
     [1] = "Crimson Forest"
 }
@@ -215,7 +219,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(103)
+		task.wait(5)
                 local args = {
     [1] = "Jungle"
 }
@@ -228,7 +232,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(104)
+		task.wait(5)
                 local args = {
     [1] = "Jungle Temple"
 }
@@ -241,7 +245,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(105)
+		task.wait(5)
                 local args = {
     [1] = "Oasis"
 }
@@ -254,7 +258,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(106))
+		task.wait(5)
                 local args = {
     [1] = "Beach"
 }
@@ -267,7 +271,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(107)
+		task.wait(5)
                 local args = {
     [1] = "Coral Reef"
 }
@@ -280,7 +284,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-            task.wait(108)
+		task.wait(5)
                 local args = {
     [1] = "Shipwreck"
 }
@@ -293,7 +297,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(109)
+		task.wait(5)
                 local args = {
     [1] = "Atlantis"
 }
@@ -306,7 +310,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(110)
+		task.wait(5)
                 local args = {
     [1] = "Palm Beach"
 }
@@ -314,12 +318,11 @@ MainTab:AddToggle({
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
 	end    
 })
-
 MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(111)
+		task.wait(5)
                 local args = {
     [1] = "Tiki"
 }
@@ -332,9 +335,9 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(112)
+		task.wait(5)
                 local args = {
-    [1] = "Pirate Cove"
+    [1] = "Private Cove"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
@@ -345,7 +348,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(113)
+		task.wait(5)
                 local args = {
     [1] = "Pirate Tavern"
 }
@@ -358,7 +361,7 @@ MainTab:AddToggle({
 	Name = "Next world auto buy",
 	Default = true,
 	Callback = function(Value)
-		task.wait(114)
+		task.wait(5)
                 local args = {
     [1] = "Shanty Town"
 }
