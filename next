@@ -17,7 +17,7 @@ MainTab:AddButton({
 
 MainTab:AddToggle({
 	Name = "Next world auto buy",
-	Default = false,
+	Default = true,
 	Callback = function(Value)
 		while true do
                 local args = {
