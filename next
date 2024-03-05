@@ -345,7 +345,7 @@ MainTab:AddToggle({
 	Callback = function(Value)
 		task.wait(143)
                 local args = {
-    [1] = "Pirate Taveren"
+    [1] = "Pirate Tavern"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
