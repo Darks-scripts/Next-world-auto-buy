@@ -137,7 +137,7 @@ MainTab:AddToggle({
 	Callback = function(Value)
 		task.wait(127)
                 local args = {
-    [1] = "Crystal Caverans"
+    [1] = "Crystal Caverns"
 }
 
 game:GetService("ReplicatedStorage").Network.Zones_RequestPurchase:InvokeServer(unpack(args))
